@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration-content {
+  text-align: center;
+}
+
+.devices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.device-desktop,
+.device-tablet,
+.device-mobile {
+  background-color: #d1d5db;
+  border-radius: 5px;
+}
+
+.device-desktop {
+  width: 250px;
+  height: 150px;
+}
+
+.device-tablet {
+  width: 150px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.device-mobile {
+  width: 80px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.people {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.person-1,
+.person-2,
+.person-3 {
+  width: 50px;
+  height: 50px;
+  background-color: #a5b4fc;
+  border-radius: 50%;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #1e293b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 15px;
+  padding-left: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #f1f5f9;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #2563eb;
+}
+
+.login-form p {
+  margin-top: 10px;
+}
+
+.login-form a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}

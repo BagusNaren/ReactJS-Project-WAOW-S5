@@ -1,0 +1,25 @@
+.rpg-category-page {
+    padding: 20px;
+    color: white;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+  }
+  
+  .article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .article-card {
+    width: 200px;
+  }  
